@@ -220,7 +220,7 @@ body {
         transform: scale(1);
     }
     50% {
-        text-shadow: 0 0 30px rgba(254, 254, 254, 0.959);
+        text-shadow: 0 0 30px rgba(244, 180, 0, 0.8);
         transform: scale(1.1);
     }
 }
@@ -264,7 +264,7 @@ body {
 }
 
 .navbar-brand-logo {
-    width: 36px;
+    width: 97px;
     height: auto;
     display: block;
 }
@@ -1216,8 +1216,11 @@ section {
     color: var(--color-primary);
 }
 
-.footer-logo .logo-icon {
-    font-size: var(--font-size-2xl);
+.footer-logo img,
+.footer-brand-logo {
+    width: 800px;
+    height: auto;
+    display: block;
 }
 
 .footer-tagline {
